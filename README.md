@@ -1,8 +1,62 @@
-# SSC-Submission-2025
-For "Planet Healer", I aimed to create an engaging, educational, and visually appealing experience that immerses players in the mission of restoring a damaged planet. The game is designed to be intuitive, interactive, and rewarding, ensuring that players not only learn about environmental issues but also feel motivated to take action in real life.   User Experience Goals: 
-Immersion & Storytelling: From the very first scene, players are introduced as recruits of the Galactic Guardians, an advanced space organisation dedicated to saving planets from ecological collapse.  The AI companion, AERON, guides the player through their mission, providing insights into the environmental problems affecting the planet.  A seamless narrative flow ensures engagement—from selecting problems to solving them and seeing the planet visibly recover with each step.  The final congratulatory scene acknowledges the player’s efforts, reinforcing their role as a “Planet Healer.”   Educational & Interactive: Instead of presenting facts in a passive way, the game introduces interactive quizzes that require players to think critically about real-world environmental issues. Each problem (e.g., deforestation, greenhouse gas emissions, ocean disruption) is accompanied by scenario-based questions, encouraging players to analyse and apply what they learn. The visual representation of the planet changing in real time adds an extra layer of engagement, allowing players to see the impact of their solutions as they progress.   Motivation & Reward System: Completing all tasks grants the player the prestigious “Planet Healer” title.  The experience is designed to be rewarding and satisfying, ensuring that players feel a sense of achievement for their efforts.  The final scene encourages players to reflect on what they’ve learned and inspire change beyond the game.
+# Planet Healer - SSC Submission 2025
 
-Frameworks & Technologies Used: 
-To achieve this experience, I leveraged SpriteKit, Swift Playgrounds, and Core Animation for smooth transitions and animations.  
-SpriteKit: 
-2D Game Development: Used for rendering the planet, problems, AERON, and UI elements.  Animations & Effects: Applied blinking effects, typewriter text animations, and fade transitions to enhance engagement.  Scene Transitions: Implemented smooth navigation between different game stages: ProblemSelectionScene → ProblemDetailsScene → QuizScene → CongratulateScene.   Swift Playgrounds:  Platform for Student Submissions: Ensured compatibility within Apple’s guidelines.  Optimized for Interactivity: Allowed smooth scene transitions between different phases of the game.  Efficient Testing Environment: Provided a lightweight and efficient way to test animations, interactions, and logic in a real-time environment.   Core Animation:  Seamless Scene Transitions: Enhanced storytelling and kept players engaged.  Typewriter Effect for Dialogue: Made AERON’s guidance more dynamic and interactive.  Fade In/Out Effects: Used to create an immersive experience when transitioning between different stages.   I chose SpriteKit because it is lightweight, efficient, and well-optimized for creating 2D games within the Swift Playgrounds environment. Unlike other game engines that may require heavy computations, SpriteKit ensures smooth performance and responsive interactions, making it ideal for an educational game. Additionally, Swift Playgrounds provided an accessible platform to build, test, and refine the game within the constraints of the Swift Student Challenge, ensuring that all elements were optimized for engagement, learning, and interactivity.
+**Planet Healer** is an engaging, educational, and visually appealing game designed to immerse players in the mission of restoring a damaged planet. As recruits of the **Galactic Guardians**, players embark on a journey to solve environmental challenges, using critical thinking to make a real-world impact. This project focuses on **interactive learning**, **rewarding gameplay**, and **dynamic storytelling** to inspire action beyond the game.
+
+---
+
+## **User Experience Goals**
+
+### 1. **Immersion & Storytelling**
+- Players are introduced as recruits of the **Galactic Guardians**, an advanced space organization dedicated to saving planets from ecological collapse.
+- Guided by **AERON**, the AI companion, players are informed about the environmental issues affecting the planet.
+- The game provides a seamless narrative flow from selecting environmental problems to solving them and witnessing the planet's visible recovery.
+- A final congratulatory scene reinforces the player’s journey, leaving them with a sense of accomplishment as a "Planet Healer."
+
+### 2. **Educational & Interactive Gameplay**
+- Instead of passive learning, the game integrates **interactive quizzes** that encourage critical thinking about environmental issues.
+- Players are faced with scenario-based questions related to real-world problems (e.g., deforestation, greenhouse gas emissions, ocean disruption), promoting analysis and application of solutions.
+- As players progress, the planet visually transforms in real-time, showing the impact of their actions.
+
+### 3. **Motivation & Reward System**
+- Completing tasks rewards the player with the **prestigious “Planet Healer”** title.
+- The game is designed to be both rewarding and satisfying, motivating players to achieve goals and see the real-time changes they bring to the planet.
+- The final scene encourages reflection, inspiring players to take positive actions beyond the game.
+
+---
+
+## **Frameworks & Technologies Used**
+
+### 1. **SpriteKit**
+- **2D Game Development**: Used for rendering the planet, environmental problems, AERON, and UI elements.
+- **Animations & Effects**: Applied effects such as blinking animations, typewriter text, and fade transitions to enhance engagement.
+- **Scene Transitions**: Smooth navigation through different game stages: `ProblemSelectionScene → ProblemDetailsScene → QuizScene → CongratulateScene`.
+
+### 2. **Swift Playgrounds**
+- **Platform for Student Submissions**: Ensures compatibility with Apple’s guidelines.
+- **Optimized for Interactivity**: Facilitates smooth scene transitions and interactive game elements.
+- **Efficient Testing**: Provides a lightweight environment to test animations, logic, and interactions in real-time.
+
+### 3. **Core Animation**
+- **Seamless Scene Transitions**: Enhances storytelling and keeps players engaged.
+- **Dynamic Dialogue**: AERON’s guidance is presented via a typewriter effect for a more interactive experience.
+- **Fade Effects**: Used to create an immersive atmosphere between different game stages.
+
+---
+
+## **Why SpriteKit and Swift Playgrounds?**
+
+I chose **SpriteKit** for its **lightweight**, **efficient**, and **well-optimized** nature in 2D game development within the Swift Playgrounds environment. Unlike heavier game engines, SpriteKit ensures smooth performance and responsive interactions, making it ideal for an educational experience. **Swift Playgrounds** provided an **accessible platform** to build, test, and refine the game, ensuring compatibility with Apple's guidelines and offering an **efficient testing environment** to optimize the game for **engagement**, **learning**, and **interactivity**.
+
+---
+
+## **Installation & Usage**
+
+To play **Planet Healer**, simply download this repository, extract it and open it in **Xcode** or **Swift Playgrounds**.
+
+---
+
+## **Inspiration & Final Thoughts**
+
+**Planet Healer** is more than just a game—it's a journey to inspire change. By allowing players to interact with environmental problems and see the impact of their solutions, the goal is to motivate real-world action. Whether you’re playing for fun or learning about the planet’s future, the experience offers both entertainment and education in an engaging format.
+
+---
